@@ -25,13 +25,13 @@ npm run build
 ```
 
 ### QuillEditer 설치
-
+See [QuillEditer Reference](https://vueup.github.io/vue-quill/).
 ```sh
 npm install @vueup/vue-quill@beta --save
 ```
 
 ### quill-blot-formatter 플러그인 설치(이미지 리사이즈 및 기타 기능 확장)
-
+See [quill-blot-formatter Reference](https://www.npmjs.com/package/quill-blot-formatter).
 ```sh
 npm install --save quill-blot-formatter
 ```
