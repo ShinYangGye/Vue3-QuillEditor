@@ -31,7 +31,7 @@ npm install @vueup/vue-quill@beta --save
 ```
 
 ### quill-blot-formatter 플러그인 설치(이미지 리사이즈 및 기타 기능 확장)
-See [quill-blot-formatter Reference](https://www.npmjs.com/package/quill-blot-formatter).
+See [quill-blot-formatter Reference](https://github.com/Fandom-OSS/quill-blot-formatter).
 ```sh
 npm install --save quill-blot-formatter
 ```
