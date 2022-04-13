@@ -1,0 +1,26 @@
+<template>
+<div>
+  <h1>Basic Example</h1>
+  <QuillEditor v-model:content="content" />
+</div>
+</template>
+
+<script>
+import { ref, defineComponent } from 'vue'
+import { QuillEditor, Delta } from '@vueup/vue-quill'
+export default defineComponent({
+  components: {
+    QuillEditor,
+  },
+  setup: () => {
+    const content = ref<Delta>(
+      new Delta([
+        { insert: 'Gandalf', attributes: { bold: true } },
+        { insert: ' the ' },
+        { insert: 'Grey', attributes: { color: '#ccc' } },
+      ])
+    )
+    return { content }
+  },
+})
+</script>
