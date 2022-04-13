@@ -30,7 +30,7 @@ npm run build
 npm install @vueup/vue-quill@beta --save
 ```
 
-### quill-blot-formatter 플러그인 설치(이미지 리사이즈및 기타 기능 확장)
+### quill-blot-formatter 플러그인 설치(이미지 리사이즈 및 기타 기능 확장)
 
 ```sh
 npm install --save quill-blot-formatter
